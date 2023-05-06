@@ -6,7 +6,7 @@ func Print(h helloPrinter) {
 	h.PrintHello()
 }
 
-func PrintHelloGreen() {
+func PrintHelloRed() {
 	p := color.GreenPrinter{}
 	p.PrintHello()
 }

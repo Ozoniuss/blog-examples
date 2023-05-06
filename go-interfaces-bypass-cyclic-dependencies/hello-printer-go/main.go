@@ -6,7 +6,7 @@ import (
 )
 
 func main() {
-	client.PrintHelloGreen()
+	client.PrintHelloRed()
 	client.PrintHelloYello()
 
 	g := color.GreenPrinter{}
