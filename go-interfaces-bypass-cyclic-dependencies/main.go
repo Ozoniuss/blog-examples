@@ -11,7 +11,9 @@ func main() {
 
 	g := color.GreenPrinter{}
 	y := color.YellowPrinter{}
+	r := client.ReversePrinter{}
 
 	client.Print(g)
 	client.Print(y)
+	client.Print(r)
 }
